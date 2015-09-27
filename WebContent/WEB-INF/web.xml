@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <welcome-file-list>
+    <welcome-file>Login.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>SerExam</servlet-name>
+    <servlet-class>SerExam</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SerExam</servlet-name>
+    <url-pattern>/firstserv</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Reg</display-name>
+    <servlet-name>Reg</servlet-name>
+    <servlet-class>Reg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Reg</servlet-name>
+    <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>location</display-name>
+    <servlet-name>location</servlet-name>
+    <servlet-class>location</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>location</servlet-name>
+    <url-pattern>/location</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>message</display-name>
+    <servlet-name>message</servlet-name>
+    <servlet-class>message</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>message</servlet-name>
+    <url-pattern>/message</url-pattern>
+  </servlet-mapping>
+</web-app>
